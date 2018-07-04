@@ -1,0 +1,277 @@
+[25-Jun-2018 06:03:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'service_category_id' in 'where clause'<br />Error No: 1054<br />DELETE FROM oc_product_to_category WHERE service_category_id = '0'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('DELETE FROM oc_...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/service/service_category.php(282): DB->query('DELETE FROM oc_...')
+#2 [internal function]: ModelServiceServiceCategory->deleteServiceCategory('')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Object(C in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:22:32 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 7
+[27-Jun-2018 01:22:32 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 10
+[27-Jun-2018 01:22:32 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 10
+[27-Jun-2018 01:22:32 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'root', '', 'db_daithanh', '3306')
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'root', '', 'db_daithanh', '3306')
+#2 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/startup.php(124): require_once('/home/dangiaoh/...')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/index.php(23): start('admin')
+#4 {main}
+  thrown in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 10
+[27-Jun-2018 01:37:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_service_special' doesn't exist<br />Error No: 1146<br />SELECT * FROM oc_service_special WHERE service_id = '2730' ORDER BY priority, price' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(544): DB->query('SELECT * FROM o...')
+#2 [internal function]: ModelCatalogService->getServiceSpecials('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array( in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:39:42 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_service_special' doesn't exist<br />Error No: 1146<br />SELECT * FROM oc_service_special WHERE service_id = '2730' ORDER BY priority, price' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(544): DB->query('SELECT * FROM o...')
+#2 [internal function]: ModelCatalogService->getServiceSpecials('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array( in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:41:44 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_service_recurring' doesn't exist<br />Error No: 1146<br />SELECT * FROM `oc_service_recurring` WHERE service_id = '2730'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM `...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(610): DB->query('SELECT * FROM `...')
+#2 [internal function]: ModelCatalogService->getRecurrings('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Object(Closure), Array)
+ in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:45:31 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_service_recurring' doesn't exist<br />Error No: 1146<br />SELECT * FROM `oc_service_recurring` WHERE service_id = '2730'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM `...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(610): DB->query('SELECT * FROM `...')
+#2 [internal function]: ModelCatalogService->getRecurrings('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Object(Closure), Array)
+ in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:47:07 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_service_filter' doesn't exist<br />Error No: 1146<br />SELECT * FROM oc_service_filter WHERE service_id = '2730'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(454): DB->query('SELECT * FROM o...')
+#2 [internal function]: ModelCatalogService->getServiceFilters('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Object(Closure), Array)
+#6 / in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:47:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'attribute_id' in 'field list'<br />Error No: 1054<br />SELECT attribute_id FROM oc_service_attribute WHERE service_id = '2730' GROUP BY attribute_id' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT attribut...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(466): DB->query('SELECT attribut...')
+#2 [internal function]: ModelCatalogService->getServiceAttributes('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Obje in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:48:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'attribute_id' in 'field list'<br />Error No: 1054<br />SELECT attribute_id FROM oc_service_attribute WHERE service_id = '2730' GROUP BY attribute_id' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT attribut...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(466): DB->query('SELECT attribut...')
+#2 [internal function]: ModelCatalogService->getServiceAttributes('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Obje in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:49:45 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_service_attribute' doesn't exist<br />Error No: 1146<br />SELECT attribute_id FROM oc_service_attribute WHERE service_id = '2730' GROUP BY attribute_id' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT attribut...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(466): DB->query('SELECT attribut...')
+#2 [internal function]: ModelCatalogService->getServiceAttributes('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_us in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:50:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_service_attribute' doesn't exist<br />Error No: 1146<br />SELECT attribute_id FROM oc_service_attribute WHERE service_id = '2730' GROUP BY attribute_id' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT attribut...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(466): DB->query('SELECT attribut...')
+#2 [internal function]: ModelCatalogService->getServiceAttributes('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_us in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:53:35 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'attributesev_id' in 'field list'<br />Error No: 1054<br />SELECT attributesev_id FROM oc_service_attributesev WHERE service_id = '2730' GROUP BY attributesev_id' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT attribut...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(466): DB->query('SELECT attribut...')
+#2 [internal function]: ModelCatalogService->getServiceAttributes('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_fun in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:55:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'attributesev_id' in 'field list'<br />Error No: 1054<br />SELECT attributesev_id FROM oc_service_attributesev WHERE service_id = '2730' GROUP BY attributesev_id' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT attribut...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(466): DB->query('SELECT attribut...')
+#2 [internal function]: ModelCatalogService->getServiceAttributes('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_fun in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:57:44 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'attributesev_id' in 'field list'<br />Error No: 1054<br />SELECT attributesev_id FROM oc_service_attributesev WHERE service_id = '2730' GROUP BY attributesev_id' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT attribut...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(466): DB->query('SELECT attribut...')
+#2 [internal function]: ModelCatalogService->getServiceAttributes('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_fun in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:59:06 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_service_option' doesn't exist<br />Error No: 1146<br />SELECT * FROM `oc_service_option` po LEFT JOIN `oc_option` o ON (po.option_id = o.option_id) LEFT JOIN `oc_option_description` od ON (o.option_id = od.option_id) WHERE po.service_id = '2730' AND od.language_id = '2'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM `...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(489): DB->query('SELECT * FROM `...')
+#2 [internal function]: ModelCatalogService->getServiceOptions('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Ar in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 01:59:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_service_option' doesn't exist<br />Error No: 1146<br />SELECT * FROM `oc_service_option` po LEFT JOIN `oc_option` o ON (po.option_id = o.option_id) LEFT JOIN `oc_option_description` od ON (o.option_id = od.option_id) WHERE po.service_id = '2730' AND od.language_id = '2'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM `...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(489): DB->query('SELECT * FROM `...')
+#2 [internal function]: ModelCatalogService->getServiceOptions('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Ar in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 02:01:01 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'po.option_id' in 'on clause'<br />Error No: 1054<br />SELECT * FROM `oc_service_optionsev` po LEFT JOIN `oc_option` o ON (po.option_id = o.option_id) LEFT JOIN `oc_option_description` od ON (o.option_id = od.option_id) WHERE po.service_id = '2730' AND od.language_id = '2'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM `...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(489): DB->query('SELECT * FROM `...')
+#2 [internal function]: ModelCatalogService->getServiceOptions('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+# in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 02:01:44 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'o.optionsev_id' in 'on clause'<br />Error No: 1054<br />SELECT * FROM `oc_service_optionsev` po LEFT JOIN `oc_option` o ON (po.optionsev_id = o.optionsev_id) LEFT JOIN `oc_option_description` od ON (o.optionsev_id = od.optionsev_id) WHERE po.service_id = '2730' AND od.language_id = '2'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM `...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(489): DB->query('SELECT * FROM `...')
+#2 [internal function]: ModelCatalogService->getServiceOptions('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(A in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 02:02:12 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'o.optionsev_id' in 'on clause'<br />Error No: 1054<br />SELECT * FROM `oc_service_optionsev` po LEFT JOIN `oc_option` o ON (po.optionsev_id = o.optionsev_id) LEFT JOIN `oc_option_description` od ON (o.optionsev_id = od.optionsev_id) WHERE po.service_id = '2730' AND od.language_id = '2'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM `...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(489): DB->query('SELECT * FROM `...')
+#2 [internal function]: ModelCatalogService->getServiceOptions('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(A in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 02:02:13 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'o.optionsev_id' in 'on clause'<br />Error No: 1054<br />SELECT * FROM `oc_service_optionsev` po LEFT JOIN `oc_option` o ON (po.optionsev_id = o.optionsev_id) LEFT JOIN `oc_option_description` od ON (o.optionsev_id = od.optionsev_id) WHERE po.service_id = '2730' AND od.language_id = '2'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM `...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(489): DB->query('SELECT * FROM `...')
+#2 [internal function]: ModelCatalogService->getServiceOptions('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(A in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 02:03:20 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'o.optionsev_id' in 'on clause'<br />Error No: 1054<br />SELECT * FROM `oc_service_optionsev` po LEFT JOIN `oc_option` o ON (po.optionsev_id = o.optionsev_id) LEFT JOIN `oc_option_description` od ON (o.optionsev_id = od.optionsev_id) WHERE po.service_id = '2730' AND od.language_id = '2'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM `...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(489): DB->query('SELECT * FROM `...')
+#2 [internal function]: ModelCatalogService->getServiceOptions('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(A in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 02:05:04 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_service_discount' doesn't exist<br />Error No: 1146<br />SELECT * FROM oc_service_discount WHERE service_id = '2730' ORDER BY quantity, priority, price' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(538): DB->query('SELECT * FROM o...')
+#2 [internal function]: ModelCatalogService->getServiceDiscounts('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_use in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 02:06:34 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_service_to_download' doesn't exist<br />Error No: 1146<br />SELECT * FROM oc_service_to_download WHERE service_id = '2730'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(564): DB->query('SELECT * FROM o...')
+#2 [internal function]: ModelCatalogService->getServiceDownloads('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Object(Closure), in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 02:07:15 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_service_reward' doesn't exist<br />Error No: 1146<br />SELECT * FROM oc_service_reward WHERE service_id = '2730'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(552): DB->query('SELECT * FROM o...')
+#2 [internal function]: ModelCatalogService->getServiceRewards('2730')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Object(Closure), Array)
+#6 / in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 13:45:11 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'sku' in 'field list'<br />Error No: 1054<br />UPDATE oc_service SET model = 'Cameras', sku = '', upc = '', ean = '', jan = '', isbn = '', mpn = '', location = '', quantity = '0', minimum = '0', subtract = '0', stock_status_id = '0', date_available = '2018-05-13', manufacturer_id = '0', shipping = '0', price = '0', points = '0', weight = '0', weight_class_id = '0', length = '0', width = '0', height = '0', length_class_id = '0', status = '0', tax_class_id = '0', sort_order = '2', date_modified = NOW() WHERE service_id = '2730'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('UPDATE oc_servi...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(130): DB->query('UPDATE oc_servi...')
+#2 [internal function]: ModelCat in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 13:47:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'manufacturer_id' in 'field list'<br />Error No: 1054<br />UPDATE oc_service SET model = 'Cameras', sku = '', upc = '', ean = '', jan = '', isbn = '', mpn = '', location = '', quantity = '0', minimum = '0', subtract = '0', stock_status_id = '0', date_available = '2018-05-13', manufacturer_id = '0', shipping = '0', price = '0', points = '0', weight = '0', weight_class_id = '0', length = '0', width = '0', height = '0', length_class_id = '0', status = '0', tax_class_id = '0', sort_order = '2', date_modified = NOW() WHERE service_id = '2730'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('UPDATE oc_servi...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(130): DB->query('UPDATE oc_servi...')
+#2 [internal functio in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 13:53:04 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'manufacturersev_id' in 'field list'<br />Error No: 1054<br />UPDATE oc_service SET model = 'Cameras', sku = '', upc = '', ean = '', jan = '', isbn = '', mpn = '', location = '', quantity = '0', minimum = '0', subtract = '0', stock_status_id = '0', date_available = '2018-05-13', manufacturersev_id = '0', shipping = '0', price = '0', points = '0', weight = '0', weight_class_id = '0', length = '0', width = '0', height = '0', length_class_id = '0', status = '0', tax_class_id = '0', sort_order = '2', date_modified = NOW() WHERE service_id = '2730'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('UPDATE oc_servi...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(259): DB->query('UPDATE oc_servi...')
+#2 [internal f in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[27-Jun-2018 14:00:02 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'manufacturersev_id' in 'field list'<br />Error No: 1054<br />INSERT INTO oc_service SET model = 'Tổng thầu hệ thống môi trường', sku = '', upc = '', ean = '', jan = '', isbn = '', mpn = '', location = '', quantity = '1', minimum = '1', subtract = '0', stock_status_id = '0', date_available = '2018-06-27', manufacturersev_id = '8', shipping = '1', price = '0', points = '0', weight = '0', weight_class_id = '0', length = '0', width = '0', height = '0', length_class_id = '0', status = '0', tax_class_id = '0', sort_order = '1', date_added = NOW()' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('INSERT INTO oc_...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/service.php(7): DB->query('INSERT INTO oc_...')
+#2 [in in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[29-Jun-2018 15:27:19 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_downloadsev' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) AS total FROM oc_downloadsev' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT COUNT(*)...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/downloadsev.php(90): DB->query('SELECT COUNT(*)...')
+#2 [internal function]: ModelCatalogDownloadsev->getTotalDownloadsevs()
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Object(Closure), Array)
+#6 /home/dangiao in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[29-Jun-2018 15:35:11 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_downloadsev' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) AS total FROM oc_downloadsev' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT COUNT(*)...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/catalog/downloadsev.php(90): DB->query('SELECT COUNT(*)...')
+#2 [internal function]: ModelCatalogDownloadsev->getTotalDownloadsevs()
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Object(Closure), Array)
+#6 /home/dangiao in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[30-Jun-2018 11:34:48 UTC] PHP Warning:  unlink(/home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/cache/cache.order_status.2.1530357600): No such file or directory in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/cache/file.php on line 17
+[30-Jun-2018 11:34:49 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'sort_order' in 'order clause'<br />Error No: 1054<br />SELECT * FROM oc_portfolio_options WHERE portfolio_id = '2725' ORDER BY sort_order ASC' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/portfolio/portfolio.php(252): DB->query('SELECT * FROM o...')
+#2 [internal function]: ModelPortfolioPortfolio->getPortfolioOptions('2725')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Obje in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[30-Jun-2018 11:34:58 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'sort_order' in 'order clause'<br />Error No: 1054<br />SELECT * FROM oc_portfolio_options WHERE portfolio_id = '2725' ORDER BY sort_order ASC' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/portfolio/portfolio.php(252): DB->query('SELECT * FROM o...')
+#2 [internal function]: ModelPortfolioPortfolio->getPortfolioOptions('2725')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Obje in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[30-Jun-2018 11:34:59 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'sort_order' in 'order clause'<br />Error No: 1054<br />SELECT * FROM oc_portfolio_options WHERE portfolio_id = '2725' ORDER BY sort_order ASC' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/portfolio/portfolio.php(252): DB->query('SELECT * FROM o...')
+#2 [internal function]: ModelPortfolioPortfolio->getPortfolioOptions('2725')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Obje in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[30-Jun-2018 11:45:48 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/controller/portfolio/portfolio.php on line 244
+[30-Jun-2018 12:03:02 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM oc_portfolio_options SET language_id = '2', value ='H' WHERE option_key = '' at line 1<br />Error No: 1064<br />UPDATE FROM oc_portfolio_options SET language_id = '2', value ='H' WHERE option_key = 'categories' AND portfolio_id = '2725'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('UPDATE FROM oc_...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/portfolio/portfolio.php(72): DB->query('UPDATE FROM oc_...')
+#2 [internal function]: ModelPortfolioPortfolio->editPortfolio('2725', Array)
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.ph in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[30-Jun-2018 13:13:36 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/portfolio/portfolio.php on line 71
+[30-Jun-2018 13:30:08 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'dangiaoh_daithanh_db.oc_banner_image_description' doesn't exist<br />Error No: 1146<br />DELETE FROM oc_banner_image_description WHERE language_id = '4'' in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db.php(16): DB\MySQLi->query('DELETE FROM oc_...', Array)
+#1 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/model/localisation/language.php(222): DB->query('DELETE FROM oc_...')
+#2 [internal function]: ModelLocalisationLanguage->deleteLanguage('4')
+#3 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/engine/proxy.php(25): call_user_func_array(Object in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/library/db/mysqli.php on line 40
+[30-Jun-2018 13:43:52 UTC] PHP Fatal error:  Call to a member function getPortfolio() on null in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/controller/portfolio/portfolio.php on line 438
+[01-Jul-2018 01:13:37 UTC] PHP Fatal error:  Call to a member function addStyle() on null in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/controller/portfolio/portfolio.php on line 272
+[01-Jul-2018 01:14:08 UTC] PHP Fatal error:  Call to a member function addStyles() on null in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/controller/portfolio/portfolio.php on line 272
+[01-Jul-2018 01:15:11 UTC] PHP Fatal error:  Call to a member function addStyle() on null in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/admin/controller/portfolio/portfolio.php on line 272
+[01-Jul-2018 15:25:58 UTC] PHP Fatal error:  Class 'Controllercommonheader' not found in /home/dangiaoh/public_html/domains/demo.xulynuocthaidaithanh.com/system/storage/modification/system/engine/action.php on line 43

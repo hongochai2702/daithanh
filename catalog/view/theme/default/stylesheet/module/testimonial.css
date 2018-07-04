@@ -1,0 +1,72 @@
+.widget-bod {}
+.widget-bod .post-list {}
+.widget-bod .post-list .post-item {
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 0;
+    border: 0;
+}
+.widget-bod .post-list .post-item .post-wrap {
+    background: #fff;
+}
+.widget-bod .post-list .post-item .media-image {
+    display: block;
+    position: relative;
+}
+.widget-bod .post-list .post-item .media-image .post-link {}
+.widget-bod .post-list .post-item .media-image img {}
+.widget-bod .post-list .post-item .media-image .social-meta {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffffba;
+}
+.widget-bod .post-list .post-item .media-image .social-meta .social-item a {
+	display: block;
+	padding: 5px;
+}
+.widget-bod .post-list .post-item .media-image .social-meta .social-item {
+    background: #005d98;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 7px;
+    border: 1px solid transparent;
+	transition: all 0.2s ease-in-out;
+}
+.widget-bod .post-list .post-item .media-image .social-meta .social-item:hover {
+	border-radius: 50%;
+	transition: all 0.2s ease-in-out;
+}
+.widget-bod .post-list .post-item .media-image .social-meta .social-item[class*="facebook"] {
+    background: #3B5998;
+}
+.widget-bod .post-list .post-item .media-image .social-meta .social-item[class*="google-plus"] {
+    background: #DD4B39;
+}
+.widget-bod .post-list .post-item .media-image .social-meta .social-item[class*="twitter"] {
+    background: #00ACED;
+}
+.widget-bod .post-list .post-item .media-image .social-meta .social-item i.fa {
+    color: #fff;
+}
+
+.widget-bod .post-list .post-item .media-body {}
+.widget-bod .post-list .post-item .media-body .heading {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #4A4A4A;
+    letter-spacing: 0.45px;
+    margin-bottom: 0;
+}
+.widget-bod .post-list .post-item .media-body .position {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.4px;
+}

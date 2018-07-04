@@ -1,0 +1,41 @@
+<?php
+$_['heading_title']               = 'Facebook Chat';
+$_['error_permission']            = 'Cảnh báo: Bạn không có quyền chỉnh sửa module này!';
+$_['text_success']                = 'Thành công: Bạn đã thiết lập cấu hình thành công!';
+$_['text_enabled']                = 'Bật';
+$_['text_disabled']               = 'Tắt';
+$_['button_cancel']			   = 'Hủy bỏ';
+$_['save_changes']				= 'Lưu thay đổi';
+$_['text_default']				= 'Mặc định';
+$_['text_module']				 = 'Chức năng';
+// Control Panel
+$_['entry_code']                  = 'Tình trạng: ';
+$_['entry_code_help'] 			 = 'Bật hoặc tắt chức năng';
+$_['text_content_top']			= 'Nội dung trên cùng';
+$_['text_content_bottom']		 = 'Nội dung dưới cùng';
+$_['text_column_left']			= 'Cột trái';
+$_['text_column_right']		   = 'Cột phải';
+$_['entry_layout']        		= 'Bố cục:';
+$_['entry_position']      		  = 'Vị trí:';
+$_['entry_status']        		= 'Tình trạng:';
+$_['entry_sort_order']    		= 'Sắp xếp:';
+$_['entry_action_options']		= 'Hành động:';
+$_['entry_layout_options']        = 'Bố cục tùy chọn:';
+$_['entry_position_options']      = 'Vị trí tùy chọn:';
+$_['button_add_module'] 		   = 'Thêm chức năng';
+$_['button_remove']			   = 'Gỡ bỏ';
+// Module depending
+$_['text_image_dimensions']	   = 'Vị trí hình ảnh nút hiển thị:';
+$_['text_image_dimensions_help']  = 'Chọn kích cỡ hiển thị từ 10 đến 32. Tính bằng pixel.';
+$_['text_pixels']				 = 'pixels';
+$_['text_products_small']		 = 'Sản phẩm';
+$_['text_panel_name'] 			 = 'Tên chủ cửa hàng:';
+$_['text_panel_name_help']		= 'Chọn nút để nhận hướng dẫn sử dụng.';
+$_['text_user_contact']        = 'Id Fanpage';
+$_['text_user_contact_help']        = 'Nhập đúng ID Fanpage của bạn';
+$_['choose_type']              ='Loại kết nối:';
+$_['choose_type_help']              ='Chọn loại kết nối';
+$_['choose_color']              ='Màu nút:';
+$_['text_welcome'] = 'Lời chào';
+$_['text_setting'] = 'Thiết lập cấu hình';
+$_['text_display']  = 'Hiển thị';
